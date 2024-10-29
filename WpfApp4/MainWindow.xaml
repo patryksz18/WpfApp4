@@ -16,6 +16,11 @@
             <CheckBox x:Name="BoldCheckBox" Content="Bold" FontWeight="Bold" Checked="FormattingOptionChanged" Unchecked="FormattingOptionChanged" Margin="5"/>
             <CheckBox x:Name="ItalicChechBox" Content="Italic" FontStyle="Italic" Checked="FormattingOptionChanged" Unchecked="FormattingOptionChanged" Margin="5"/>
             <CheckBox x:Name="UnderlineCheckBox" Content="Underline" FontWeight="Normal" Checked="FormattingOptionChanged" Unchecked="FormattingOptionChanged" Margin="5"/>
+
+            <Button Content="Left" Click="AlignLeft_Click" Margin="5"/>
+            <Button Content="Center" Click="AlignCenter_Click" Margin="5"/>
+            <Button Content="Right" Click="AlignRight_Click" Margin="5"/>
+            <Button Content="Justify" Click="AlignJustify_Click" Margin="5"/>
         </StackPanel>
 
     </Grid>
