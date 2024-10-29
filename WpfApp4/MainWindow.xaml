@@ -21,6 +21,9 @@
             <Button Content="Center" Click="AlignCenter_Click" Margin="5"/>
             <Button Content="Right" Click="AlignRight_Click" Margin="5"/>
             <Button Content="Justify" Click="AlignJustify_Click" Margin="5"/>
+
+            <Slider x:Name="FontSizeSlider" Minimum="8" Maximum="72" Value="12" Orientation="Vertical" Margin="10,0,10,0" ValueChanged="FontSizeSlider_ValueChaneged"/>
+            
         </StackPanel>
 
     </Grid>
