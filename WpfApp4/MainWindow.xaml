@@ -12,6 +12,11 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
+            <CheckBox x:Name="BoldCheckBox" Content="Bold" FontWeight="Bold" Checked="FormattingOptionChanged" Unchecked="FormattingOptionChanged" Margin="5"/>
+            <CheckBox x:Name="ItalicChechBox" Content="Italic" FontStyle="Italic" Checked="FormattingOptionChanged" Unchecked="FormattingOptionChanged" Margin="5"/>
+            <CheckBox x:Name="UnderlineCheckBox" Content="Underline" FontWeight="Normal" Checked="FormattingOptionChanged" Unchecked="FormattingOptionChanged" Margin="5"/>
+        </StackPanel>
 
     </Grid>
 </Window>
